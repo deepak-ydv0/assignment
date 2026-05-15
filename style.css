@@ -365,3 +365,76 @@ h1 {
   width: 120px;
   opacity: 0.8;
 }
+
+/* ===== SPEC TABLE (scroll on mobile) ===== */
+.spec-section {
+  background: #0f172a;
+  color: white;
+  padding: 60px 5%;
+}
+.spec-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.spec-container h2 {
+  font-size: clamp(24px, 4vw, 34px);
+  margin-bottom: 12px;
+}
+.spec-subtitle {
+  color: #94a3b8;
+  margin-bottom: 40px;
+}
+.table-wrapper {
+  overflow-x: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 500px;
+}
+#specTableBody th,
+#specTableBody td {
+  padding: 16px;
+  text-align: left;
+  word-break: break-all;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+}
+#specTableBody th {
+  color: #cbd5e1;
+}
+
+.table-wrapper td {
+  padding: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 14px;
+  color: #e2e8f0;
+}
+
+.table-wrapper tbody tr:hover {
+  background: rgba(255, 255, 255, 0.05);
+  transition: 0.3s;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+.download-btn {
+  background: transparent;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+

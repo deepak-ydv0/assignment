@@ -342,3 +342,26 @@ h1 {
     flex-direction: column;
   }
 }
+
+/* ===== TRUSTED SECTION ===== */
+.trusted-section {
+  background: #f3f4f6;
+  padding: 50px 5%;
+  text-align: center;
+}
+.trusted-text {
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 30px;
+}
+.logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.logo-row img {
+  width: 120px;
+  opacity: 0.8;
+}
